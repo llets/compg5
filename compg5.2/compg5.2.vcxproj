@@ -18,6 +18,39 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="billboard_list.cpp" />
+    <ClCompile Include="billboard_technique.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="compg5.2.cpp" />
+    <ClCompile Include="glut_backend.cpp" />
+    <ClCompile Include="lighting_technique.cpp" />
+    <ClCompile Include="mainhandler.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="particle_system.cpp" />
+    <ClCompile Include="pipeline.cpp" />
+    <ClCompile Include="ps_update_technique.cpp" />
+    <ClCompile Include="random_texture.cpp" />
+    <ClCompile Include="technique.cpp" />
+    <ClCompile Include="texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="billboard_list.h" />
+    <ClInclude Include="billboard_technique.h" />
+    <ClInclude Include="callbacks.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="glut_backend.h" />
+    <ClInclude Include="lighting_technique.h" />
+    <ClInclude Include="mainhandler.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="particle_system.h" />
+    <ClInclude Include="pipeline.h" />
+    <ClInclude Include="ps_update_technique.h" />
+    <ClInclude Include="random_texture.h" />
+    <ClInclude Include="structs.h" />
+    <ClInclude Include="technique.h" />
+    <ClInclude Include="texture.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
