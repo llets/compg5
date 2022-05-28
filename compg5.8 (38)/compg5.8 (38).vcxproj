@@ -19,7 +19,39 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="callbacks.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="engine_common.h" />
+    <ClInclude Include="glfx.h" />
+    <ClInclude Include="glfxClasses.h" />
+    <ClInclude Include="glfxLALRParser.hpp" />
+    <ClInclude Include="glfxParser.h" />
+    <ClInclude Include="glfxScanner.h" />
+    <ClInclude Include="glut_backend.h" />
+    <ClInclude Include="mainhandler.h" />
+    <ClInclude Include="math_3d.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="ogldev_types.h" />
+    <ClInclude Include="pipeline.h" />
+    <ClInclude Include="skinning_technique.h" />
+    <ClInclude Include="technique.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp" />
     <ClCompile Include="compg5.8 (38).cpp" />
+    <ClCompile Include="glfx.cpp" />
+    <ClCompile Include="glfxLALRParser.cpp" />
+    <ClCompile Include="glfxScanner.cpp" />
+    <ClCompile Include="glut_backend.cpp" />
+    <ClCompile Include="mainhandler.cpp" />
+    <ClCompile Include="math_3d.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="pipeline.cpp" />
+    <ClCompile Include="skinning_technique.cpp" />
+    <ClCompile Include="technique.cpp" />
+    <ClCompile Include="texture.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
